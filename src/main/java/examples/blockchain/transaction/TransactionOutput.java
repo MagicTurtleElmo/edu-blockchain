@@ -5,7 +5,9 @@ import java.security.PublicKey;
 import examples.blockchain.StringUtil;
 
 public class TransactionOutput {
+	
 	public String id;
+	
 	public PublicKey recipient;
 	public float value;
 	public String parentTransactionId;
